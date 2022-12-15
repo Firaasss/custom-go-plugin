@@ -1,5 +1,9 @@
 # Tyk Gateway Custom Go Plugins
 
+### NOTE FOR M1 MACBOOKS
+
+A .env file is created to force the gateway to run amd 64 architecture. This is required to compile the make build command correctly or else the gateway will cause an error.
+
 ### Description
 
 This project is an environment for writing, compiling and bundling Golang plugins for the Tyk Gateway.
